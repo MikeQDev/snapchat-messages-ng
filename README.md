@@ -3,8 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 TODO:
-- Proper colors
-- Long press to edit/delete message and change username/color
+- Long press to edit message details
+- Swipe right for timestamps
 
 
 ## Development server

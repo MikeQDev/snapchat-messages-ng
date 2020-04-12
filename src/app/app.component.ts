@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fake-snap-message';
+
+  /**
+   * CSS hex colors
+   */
+  colorPrimaryPerson: string = '#F23C57';
+  colorSecondaryPerson: string = '#0096E5';
 }
