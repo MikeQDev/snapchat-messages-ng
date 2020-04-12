@@ -1,0 +1,11 @@
+:host {
+    cursor: default;
+}
+
+.username {
+    text-transform: uppercase;
+    margin: 0em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    user-select: none;
+}

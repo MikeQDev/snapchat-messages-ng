@@ -1,0 +1,28 @@
+:host {
+    cursor: pointer;
+}
+
+.messageRegular {
+    margin: 0px;
+    padding-left: .5em;
+}
+
+.messageSaved {
+    margin: 0px;
+    background-color: lightgrey;
+    padding-left: .375em;
+}
+
+.messageBorderRegular {
+    border-left: solid;
+    border-width: .1em;
+    margin: 0px;
+    scroll-margin-left: .375em;
+}
+
+.messageBorderSaved {
+    border-left: solid;
+    border-width: .225em;
+    margin: 0px;
+    scroll-margin-left: .375em;
+}
