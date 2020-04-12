@@ -1,6 +1,7 @@
 :host {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .message {
