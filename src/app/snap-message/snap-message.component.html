@@ -1,3 +1,3 @@
-<div [ngClass]="saved ? 'messageBorderSaved' : 'messageBorderRegular'" style="border-color:{{color}}">
-    <p [ngClass]="saved ? 'messageSaved' : 'messageRegular'" (click)='toggleSave()'>{{message}}</p>
+<div class="message" [ngClass]="saved ? 'savedMessage' : 'regularMessage'" style="border-color:{{color}}">
+    <p (click)='toggleSave()'>{{message}}</p>
 </div>

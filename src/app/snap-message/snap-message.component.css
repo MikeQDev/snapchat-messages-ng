@@ -2,27 +2,21 @@
     cursor: pointer;
 }
 
-.messageRegular {
-    margin: 0px;
-    padding-left: .5em;
+.message {
+    border-left: solid;
 }
 
-.messageSaved {
+.message p {
     margin: 0px;
+}
+
+.savedMessage {
     background-color: lightgrey;
+    border-width: .225em;
     padding-left: .375em;
 }
 
-.messageBorderRegular {
-    border-left: solid;
+.regularMessage {
     border-width: .1em;
-    margin: 0px;
-    scroll-margin-left: .375em;
-}
-
-.messageBorderSaved {
-    border-left: solid;
-    border-width: .225em;
-    margin: 0px;
-    scroll-margin-left: .375em;
+    padding-left: .5em;
 }
