@@ -10,8 +10,11 @@
 
 .message p {
     margin: 0px;
+    padding-top: .4em;
+    padding-bottom: .1em;
     font-family: 'sent message';
     font-weight: bold;
+    font-size: smaller;
 }
 
 .savedMessage {
