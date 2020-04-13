@@ -1,0 +1,50 @@
+.bottomBar {
+    position: absolute;
+    display: inline-flex;
+    float: right;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    border-top: solid;
+    border-width: .05em;
+    border-color: #E8EBED;
+}
+
+.sendChatBox {
+    outline: none;
+    /*margin-left: 1em;*/
+    padding-left: .5em;
+    padding-top: .95em;
+    padding-bottom: .3em;
+    border: none;
+    border-radius: 2em;
+    height: 1.5em;
+    /* text colors */
+    caret-color: #F23C57;
+    background-color: #E8EBED;
+    color: #000000;
+    font-family: 'sent message';
+    font-size: smaller;
+    font-weight: bold;
+    /* Don't allow user to resize textarea */
+    resize: none;
+    overflow: hidden;
+    /* Meh, auto-resizing would require some JS */
+    min-height: 1em;
+    max-height: 5em;
+}
+
+.sendChatBox::placeholder {
+    color: #B9C0C6;
+}
+
+.circle {
+    height: inherit;
+    width: 36.67px;
+    background-color: #E8EBED;
+    border-radius: 50%;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
