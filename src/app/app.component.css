@@ -4,25 +4,24 @@
     margin: 0px;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    overflow: hidden;
 }
+
 .messageContainer {
     overflow: scroll;
     height: 80vh;
-    flex-grow: 1;
     margin-left: 1vw;
     margin-right: 1vw;
+    /*Start at bottom of messages*/
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-.topContainer {
+.bottomContainer, .topContainer {
     overflow: hidden;
-    height: 10vh;
-    background-color: black;
-}
-
-.bottomContainer {
-    overflow: hidden;
-    height: 10vh;
+    border: solid;
+    border-width: .05em;
+    border-color: #E8EBED;
 }
 
 /* Doesn't work in FF */

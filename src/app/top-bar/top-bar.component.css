@@ -1,0 +1,19 @@
+.topBar {
+    background-color: red;
+    display: flex;
+    padding-top: 5px;
+}
+
+.chattingWithName {
+    font-family: 'bold username';
+    
+}
+
+.circle {
+    height: 38px;
+    width: 38px;
+    background-color: #E8EBED;
+    border-radius: 50%;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
