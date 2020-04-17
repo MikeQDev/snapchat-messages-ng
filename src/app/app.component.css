@@ -1,0 +1,32 @@
+.appContainer {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+.messageContainer {
+    overflow: scroll;
+    height: 80vh;
+    flex-grow: 1;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.topContainer {
+    overflow: hidden;
+    height: 10vh;
+    background-color: black;
+}
+
+.bottomContainer {
+    overflow: hidden;
+    height: 10vh;
+}
+
+/* Doesn't work in FF */
+
+.messageContainer::-webkit-scrollbar {
+    display: none;
+}
