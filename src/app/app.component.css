@@ -17,7 +17,25 @@
     flex-direction: column-reverse;
 }
 
-.bottomContainer, .topContainer {
+.topContainer {
+    overflow: hidden;
+    border: solid;
+    border-width: .05em;
+    border-color: #E8EBED;
+    background-color: red;
+    /* Because mobile hides behind the browser bar? ... */
+    padding-top: 55px;
+    height: 60px;
+}
+
+app-top-bar {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.bottomContainer {
     overflow: hidden;
     border: solid;
     border-width: .05em;
@@ -26,6 +44,6 @@
 
 /* Doesn't work in FF */
 
-.messageContainer::-webkit-scrollbar {
+/*.messageContainer::-webkit-scrollbar {
     display: none;
-}
+}*/

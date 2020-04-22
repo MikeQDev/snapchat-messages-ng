@@ -1,12 +1,5 @@
-.topBar {
-    background-color: red;
-    display: flex;
-    padding-top: 5px;
-}
-
 .chattingWithName {
     font-family: 'bold username';
-    
 }
 
 .circle {
