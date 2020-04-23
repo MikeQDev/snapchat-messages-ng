@@ -9,41 +9,40 @@
 
 .messageContainer {
     overflow: scroll;
-    height: 80vh;
     margin-left: 1vw;
     margin-right: 1vw;
-    /*Start at bottom of messages*/
     display: flex;
+    /*Start at bottom of messages*/
     flex-direction: column-reverse;
+    flex-shrink: 1;
+    flex-grow: 0;
 }
 
 .topContainer {
     overflow: hidden;
-    border: solid;
+    border-bottom: solid;
     border-width: .05em;
     border-color: #E8EBED;
-    background-color: red;
+    flex-shrink: 0;
+    flex-grow: 1;
     /* Because mobile hides behind the browser bar? ... */
-    padding-top: 55px;
-    height: 60px;
-}
-
-app-top-bar {
-    padding-top: 5px;
-    display: flex;
-    flex-direction: row;
-    background-color: yellow;
+    padding-top: 65px;
+    padding-bottom: 10px;
 }
 
 .bottomContainer {
     overflow: hidden;
-    border: solid;
+    border-top: solid;
     border-width: .05em;
     border-color: #E8EBED;
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Doesn't work in FF */
 
-/*.messageContainer::-webkit-scrollbar {
+.messageContainer::-webkit-scrollbar {
     display: none;
-}*/
+}
