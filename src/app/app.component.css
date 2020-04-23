@@ -18,6 +18,11 @@
     flex-grow: 0;
 }
 
+.mobileAddressBarHolder {
+    /* Because mobile hides behind the browser bar? ... */
+    padding-top: 55px;
+}
+
 .topContainer {
     overflow: hidden;
     border-bottom: solid;
@@ -25,8 +30,7 @@
     border-color: #E8EBED;
     flex-shrink: 0;
     flex-grow: 1;
-    /* Because mobile hides behind the browser bar? ... */
-    padding-top: 65px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
